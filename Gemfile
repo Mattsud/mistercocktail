@@ -28,6 +28,8 @@ gem 'spring',        group: :development
 
 gem 'simple_form'
 
+gem 'figaro'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -43,4 +45,6 @@ gem 'simple_form'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
+
+
 end
